@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Bandera Pro Bold';
+    src: url('BanderaPro-Bold.eot');
+    src: url('BanderaPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('BanderaPro-Bold.woff') format('woff'),
+    url('BanderaPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    header
+    {
+        padding-right: 15px;
+        padding-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        color: #666666;
+        text-align: right;
+        margin: auto;
+    }
+
+.number
+{
+    font-family: 'Bandera Pro Bold';
+    font-size: 24px;
+}
+
+body
+{
+    background-color: #f3f3f3;
+
+}
+
+#saveToPDFbtn{
+    
+    background-color: #1ab394;
+  border: none;
+  border-radius: 1.214em;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 0.5em 2.786em 0.6em;
+  text-align: center;
+  margin: 0 auto;
+  float: right;
+  margin-right: 50%;
+    margin-left: 50%;
+    margin-bottom: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+.thank{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    font-family: inherit;
+    font-size: 0.875em;
+    font-weight: bold;
+}
